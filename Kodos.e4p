@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project Kodos -->
+<!-- Saved: 2013-09-07, 02:21:41 -->
+<!-- Copyright (C) 2013 ,  -->
+<Project version="4.6">
+  <Language></Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <TranslationPattern>translations/kodos_%language%.ts</TranslationPattern>
+  <Sources>
+    <Source>kodos.py</Source>
+    <Source>build/lib/kodos.py</Source>
+    <Source>build/lib/modules/about.py</Source>
+    <Source>build/lib/modules/aboutBA.py</Source>
+    <Source>build/lib/modules/debug.py</Source>
+    <Source>build/lib/modules/help.py</Source>
+    <Source>build/lib/modules/helpBA.py</Source>
+    <Source>build/lib/modules/kodosBA.py</Source>
+    <Source>build/lib/modules/migrate_settings.py</Source>
+    <Source>build/lib/modules/newUserDialogBA.py</Source>
+    <Source>build/lib/modules/parseRegexLib.py</Source>
+    <Source>build/lib/modules/prefs.py</Source>
+    <Source>build/lib/modules/prefsBA.py</Source>
+    <Source>build/lib/modules/quickhelperBA.py</Source>
+    <Source>build/lib/modules/recent_files.py</Source>
+    <Source>build/lib/modules/reference.py</Source>
+    <Source>build/lib/modules/referenceBA.py</Source>
+    <Source>build/lib/modules/regexBA.py</Source>
+    <Source>build/lib/modules/regexLibrary.py</Source>
+    <Source>build/lib/modules/regexLibraryBA.py</Source>
+    <Source>build/lib/modules/reportBug.py</Source>
+    <Source>build/lib/modules/reportBugBA.py</Source>
+    <Source>build/lib/modules/resultsBA.py</Source>
+    <Source>build/lib/modules/status_bar.py</Source>
+    <Source>build/lib/modules/stringBA.py</Source>
+    <Source>build/lib/modules/TimeoutError.py</Source>
+    <Source>build/lib/modules/tooltip.py</Source>
+    <Source>build/lib/modules/urlDialog.py</Source>
+    <Source>build/lib/modules/urlDialogBA.py</Source>
+    <Source>build/lib/modules/util.py</Source>
+    <Source>build/lib/modules/version.py</Source>
+    <Source>build/lib/modules/webbrowser.py</Source>
+    <Source>build/lib/modules/xpm.py</Source>
+    <Source>build/lib/modules/__init__.py</Source>
+    <Source>build/lib/py2exe-setup.py</Source>
+    <Source>build/lib/__init__.py</Source>
+    <Source>build/scripts-2.7/kodos.py</Source>
+    <Source>modules/about.py</Source>
+    <Source>modules/aboutBA.py</Source>
+    <Source>modules/debug.py</Source>
+    <Source>modules/help.py</Source>
+    <Source>modules/helpBA.py</Source>
+    <Source>modules/kodosBA.py</Source>
+    <Source>modules/migrate_settings.py</Source>
+    <Source>modules/newUserDialogBA.py</Source>
+    <Source>modules/parseRegexLib.py</Source>
+    <Source>modules/prefs.py</Source>
+    <Source>modules/prefsBA.py</Source>
+    <Source>modules/quickhelperBA.py</Source>
+    <Source>modules/recent_files.py</Source>
+    <Source>modules/reference.py</Source>
+    <Source>modules/referenceBA.py</Source>
+    <Source>modules/regexBA.py</Source>
+    <Source>modules/regexLibrary.py</Source>
+    <Source>modules/regexLibraryBA.py</Source>
+    <Source>modules/reportBug.py</Source>
+    <Source>modules/reportBugBA.py</Source>
+    <Source>modules/resultsBA.py</Source>
+    <Source>modules/status_bar.py</Source>
+    <Source>modules/stringBA.py</Source>
+    <Source>modules/TimeoutError.py</Source>
+    <Source>modules/tooltip.py</Source>
+    <Source>modules/urlDialog.py</Source>
+    <Source>modules/urlDialogBA.py</Source>
+    <Source>modules/util.py</Source>
+    <Source>modules/version.py</Source>
+    <Source>modules/webbrowser.py</Source>
+    <Source>modules/xpm.py</Source>
+    <Source>modules/__init__.py</Source>
+    <Source>py2exe-setup.py</Source>
+    <Source>scripts/bapro2qtpro.py</Source>
+    <Source>scripts/pyuicfix.py</Source>
+    <Source>setup.py</Source>
+    <Source>__init__.py</Source>
+    <Source>modules/Ui_kodosBA.py</Source>
+    <Source>modules/newUserDialog_image.py</Source>
+    <Source>modules/Ui_newUserDialogBA.py</Source>
+    <Source>modules/prefsBAimg.py</Source>
+    <Source>modules/Ui_prefsBA.py</Source>
+    <Source>modules/prefsBA_old.py</Source>
+    <Source>modules/Ui_aboutBA.py</Source>
+    <Source>modules/Ui_referenceBA.py</Source>
+    <Source>modules/referenceBAimg.py</Source>
+    <Source>modules/aboutBA_.py</Source>
+    <Source>modules/Ui_helpBA.py</Source>
+    <Source>modules/Ui_urlDialogBA.py</Source>
+  </Sources>
+  <Forms>
+    <Form>modules/OldUI/aboutBA-4.ui</Form>
+    <Form>modules/OldUI/aboutBA.ui</Form>
+    <Form>modules/OldUI/helpBA.ui</Form>
+    <Form>modules/OldUI/kodosBA.ui</Form>
+    <Form>modules/OldUI/newUserDialogBA.ui</Form>
+    <Form>modules/OldUI/prefsBA.ui</Form>
+    <Form>modules/OldUI/referenceBA.ui</Form>
+    <Form>modules/OldUI/regexLibraryBA.ui</Form>
+    <Form>modules/OldUI/reportBugBA.ui</Form>
+    <Form>modules/OldUI/resultsBA.ui</Form>
+    <Form>modules/OldUI/urlDialogBA.ui</Form>
+    <Form>modules/aboutBA.ui</Form>
+    <Form>modules/helpBA.ui</Form>
+    <Form>modules/kodosBA.ui</Form>
+    <Form>modules/newUserDialogBA.ui</Form>
+    <Form>modules/prefsBA.ui</Form>
+    <Form>modules/referenceBA.ui</Form>
+    <Form>modules/regexLibraryBA.ui</Form>
+    <Form>modules/reportBugBA.ui</Form>
+    <Form>modules/resultsBA.ui</Form>
+    <Form>modules/urlDialogBA.ui</Form>
+  </Forms>
+  <Translations>
+    <Translation>translations/kodos_pl.qm</Translation>
+    <Translation>translations/kodos_en.ts</Translation>
+    <Translation>translations/kodos_pl.ts</Translation>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <MainScript>kodos.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.ui" type="FORMS" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS" />
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES" />
+  </FiletypeAssociations>
+</Project>

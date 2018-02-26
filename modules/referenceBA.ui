@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReferenceBA</class>
+ <widget class="QMainWindow" name="ReferenceBA">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kodos - Regex Reference Guide</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>5</number>
+    </property>
+    <property name="topMargin">
+     <number>5</number>
+    </property>
+    <property name="rightMargin">
+     <number>5</number>
+    </property>
+    <property name="bottomMargin">
+     <number>5</number>
+    </property>
+    <property name="horizontalSpacing">
+     <number>1</number>
+    </property>
+    <property name="verticalSpacing">
+     <number>2</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustIgnored</enum>
+      </property>
+      <property name="sortingEnabled">
+       <bool>true</bool>
+      </property>
+      <property name="rowCount">
+       <number>32</number>
+      </property>
+      <attribute name="horizontalHeaderHighlightSections">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderMinimumSectionSize">
+       <number>17</number>
+      </attribute>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <column>
+       <property name="text">
+        <string>Symbol</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Definition</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>.</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>Matches any character</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>*</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>Matches 0 or more repetition of preceeding RE</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>+</string>
+       </property>
+      </item>
+      <item row="2" column="1">
+       <property name="text">
+        <string>Matches 1 or more repetition of preceeding RE</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>?</string>
+       </property>
+      </item>
+      <item row="3" column="1">
+       <property name="text">
+        <string>Matches 0 or 1 repetition of preceeding RE</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>^</string>
+       </property>
+      </item>
+      <item row="4" column="1">
+       <property name="text">
+        <string>Matches start of string</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>$</string>
+       </property>
+      </item>
+      <item row="5" column="1">
+       <property name="text">
+        <string>Matches the end of the string</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>\A</string>
+       </property>
+      </item>
+      <item row="6" column="1">
+       <property name="text">
+        <string>Matches only at the start of the string</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>\B</string>
+       </property>
+      </item>
+      <item row="7" column="1">
+       <property name="text">
+        <string>Matches the empty string, but only when it is not at the beginning or end of a  word</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>\b</string>
+       </property>
+      </item>
+      <item row="8" column="1">
+       <property name="text">
+        <string>Matches the empty string, but only at the beginning or end of a word</string>
+       </property>
+      </item>
+      <item row="9" column="0">
+       <property name="text">
+        <string>\d</string>
+       </property>
+      </item>
+      <item row="9" column="1">
+       <property name="text">
+        <string>Matches any decimal digit</string>
+       </property>
+      </item>
+      <item row="10" column="0">
+       <property name="text">
+        <string>\D</string>
+       </property>
+      </item>
+      <item row="10" column="1">
+       <property name="text">
+        <string>Matches any non-digit character</string>
+       </property>
+      </item>
+      <item row="11" column="0">
+       <property name="text">
+        <string>\z</string>
+       </property>
+      </item>
+      <item row="11" column="1">
+       <property name="text">
+        <string>Matches only at the end of the string</string>
+       </property>
+      </item>
+      <item row="12" column="0">
+       <property name="text">
+        <string>\W</string>
+       </property>
+      </item>
+      <item row="12" column="1">
+       <property name="text">
+        <string>Matches any non-word</string>
+       </property>
+      </item>
+      <item row="13" column="0">
+       <property name="text">
+        <string>\w</string>
+       </property>
+      </item>
+      <item row="13" column="1">
+       <property name="text">
+        <string>Matches any word</string>
+       </property>
+      </item>
+      <item row="14" column="0">
+       <property name="text">
+        <string>\S</string>
+       </property>
+      </item>
+      <item row="14" column="1">
+       <property name="text">
+        <string>Matches any non-whitespace character</string>
+       </property>
+      </item>
+      <item row="15" column="0">
+       <property name="text">
+        <string>\s</string>
+       </property>
+      </item>
+      <item row="15" column="1">
+       <property name="text">
+        <string>Matches any whitespace character</string>
+       </property>
+      </item>
+      <item row="16" column="0">
+       <property name="text">
+        <string>\\</string>
+       </property>
+      </item>
+      <item row="16" column="1">
+       <property name="text">
+        <string>Matches a literal backslash</string>
+       </property>
+      </item>
+      <item row="17" column="0">
+       <property name="text">
+        <string>??</string>
+       </property>
+      </item>
+      <item row="17" column="1">
+       <property name="text">
+        <string>Non-greedy ?</string>
+       </property>
+      </item>
+      <item row="18" column="0">
+       <property name="text">
+        <string>*?</string>
+       </property>
+      </item>
+      <item row="18" column="1">
+       <property name="text">
+        <string>Non-greedy *</string>
+       </property>
+      </item>
+      <item row="19" column="0">
+       <property name="text">
+        <string>+?</string>
+       </property>
+      </item>
+      <item row="19" column="1">
+       <property name="text">
+        <string>Non-greedy +</string>
+       </property>
+      </item>
+      <item row="20" column="0">
+       <property name="text">
+        <string>()</string>
+       </property>
+      </item>
+      <item row="20" column="1">
+       <property name="text">
+        <string>Capturing Parenthesis</string>
+       </property>
+      </item>
+      <item row="21" column="0">
+       <property name="text">
+        <string>(?:)</string>
+       </property>
+      </item>
+      <item row="21" column="1">
+       <property name="text">
+        <string>Non-capturing Parenthesis</string>
+       </property>
+      </item>
+      <item row="22" column="0">
+       <property name="text">
+        <string>[]</string>
+       </property>
+      </item>
+      <item row="22" column="1">
+       <property name="text">
+        <string>Character class</string>
+       </property>
+      </item>
+      <item row="23" column="0">
+       <property name="text">
+        <string>{m,n}</string>
+       </property>
+      </item>
+      <item row="23" column="1">
+       <property name="text">
+        <string>match from m to n repetitions of the preceding RE, attempting to match as many repetitions as possible. </string>
+       </property>
+      </item>
+      <item row="24" column="0">
+       <property name="text">
+        <string>{m,n}?</string>
+       </property>
+      </item>
+      <item row="24" column="1">
+       <property name="text">
+        <string>match from m to n repetitions of the preceding RE, attempting to match as few repetitions as possible. </string>
+       </property>
+      </item>
+      <item row="25" column="0">
+       <property name="text">
+        <string>(?P&lt;name&gt;...)</string>
+       </property>
+      </item>
+      <item row="25" column="1">
+       <property name="text">
+        <string>Similar to regular parentheses, but the substring matched by the group is accessible via the symbolic group name name.</string>
+       </property>
+      </item>
+      <item row="26" column="0">
+       <property name="text">
+        <string>(?P=name)</string>
+       </property>
+      </item>
+      <item row="26" column="1">
+       <property name="text">
+        <string>Matches whatever text was matched by the earlier group named name. </string>
+       </property>
+      </item>
+      <item row="27" column="0">
+       <property name="text">
+        <string>\number </string>
+       </property>
+      </item>
+      <item row="27" column="1">
+       <property name="text">
+        <string>Matches the contents of the group of the same number. Groups are numbered starting from 1.</string>
+       </property>
+      </item>
+      <item row="28" column="0">
+       <property name="text">
+        <string>(?&lt;=...)</string>
+       </property>
+      </item>
+      <item row="28" column="1">
+       <property name="text">
+        <string>Matches if the current position in the string is preceded by a match for ... that ends at the current position. This is called a positive lookbehind assertion.</string>
+       </property>
+      </item>
+      <item row="29" column="0">
+       <property name="text">
+        <string>(?&lt;!...)</string>
+       </property>
+      </item>
+      <item row="29" column="1">
+       <property name="text">
+        <string>Matches if the current position in the string is not preceded by a match for .... This is called a negative lookbehind assertion.</string>
+       </property>
+      </item>
+      <item row="30" column="0">
+       <property name="text">
+        <string>(?=...) </string>
+       </property>
+      </item>
+      <item row="30" column="1">
+       <property name="text">
+        <string>Matches if ... matches next, but doesn't consume any of the string. This is called a lookahead assertion.</string>
+       </property>
+      </item>
+      <item row="31" column="0">
+       <property name="text">
+        <string>(?!...)</string>
+       </property>
+      </item>
+      <item row="31" column="1">
+       <property name="text">
+        <string>Matches if ... doesn't match next. This is a negative lookahead assertion</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSaveAs"/>
+    <addaction name="actionPrint"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionSaveAs">
+   <property name="text">
+    <string>SaveAs</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="text">
+    <string>Print</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
